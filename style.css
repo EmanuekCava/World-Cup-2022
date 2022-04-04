@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./Mundial\ 2022/descarga.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+}
+.container-groups {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 8px;
+}
+.container-group {
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    background: #7f7;
+    margin: 2px;
+    border-radius: 4px;
+}
+.container-participants {
+    padding: 4px;
+    border-bottom: 1px solid #111;
+}
+.text-group {
+    font-size: 22px;
+}
+.contain-participants {
+    margin: 4px;
+}
+.image-group-participant {
+    width: 22%;
+    height: 34px;
+    margin: 2px;
+}
+.container-fixture {
+    padding: 8px 4px;
+}
+.image-group {
+    width: 64px;
+    height: 34px;
+    margin: 2px;
+}
+.fixture {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.input-goals {
+    width: 50px;
+    height: 34px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+}
+.input-goals:focus {
+    box-shadow: 0px 0px 5px inset #111;
+}
+.abrr {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.container-positions {
+    padding: 8px 4px;
+}
+.table-positions {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #111;
+}
+.container-column {
+    padding: 2px;
+}
+
+/* Next Round */
+
+.container-nextround {
+    border: 1px solid #111;
+    width: 100%;
+    height: 140vh;
+    padding: 20px 8px;
+    background: #7f7;
+}
+.container-road {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-road {
+    font-size: 24px;
+    width: 260px;
+}
+.container-round-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.round {
+    cursor: pointer;
+}
+.round:hover {
+    border: 2px solid #111;
+}
+.round:active {
+    border: transparent;
+}
+.round-final {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+}
+.space {
+    background: #fff;
+    width: 64px;
+    height: 34px;
+}
